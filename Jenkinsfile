@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout From Git') {
             steps {
-                git branch: 'main', url: 'https://github.com/papadiouf13/hospital-api.git'
+                git branch: 'master', url: 'https://github.com/papadiouf13/hospital-api.git'
             }
         }
         stage('Clean') {
